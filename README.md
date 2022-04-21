@@ -1,6 +1,6 @@
 <center> <h1>JAVA FOUNDATIONS</h1> </center>
 
-En este Repositorio estare subiendo el conocimiento que este adquiriendo del curos de *Oracle Academy*.:computer:
+En este Repositorio estare subiendo el conocimiento que este adquiriendo del curso de *Oracle Academy*.:computer:
 ### OBJETIVOS DEL CURSO *JAVA FOUNDATIONS*
 #### VISIÓN GENERAL 
 Los alumnos aprenderán los conceptos de la programación Java, a diseñar aplicaciones orientadas a objetos con Java y a crear programas Java mediante actividades prácticas y participativas.
