@@ -28,14 +28,37 @@ int 4333Mate=33;//error
 ```java
 int x = 4;
 double x= 5.4;
+//error en los dos casos
 ```
 ## 2.DATOS NUMÉRICOS 
 Algunos tipos primitivos.
 Las variables primitivas tiene valor por default 0.
+
 | Tipo      |  Length    | Valor mínimo     |Valor máximo |
 |-----------|------------|----------------- |------------ |
-|Byte       | 8 bits     | $-2^2$ or $-128$ | $2^7-1 or 127$|
-|Short      |16 bits     |$-2^[15]$ or $$
+|Byte       | 8 bits     |  -128            |  $127$      |
+|Short      |16 bits     | -32768           | 32767       |
+|int        |32 bits     |-2,147,483,648    |2,147,483,647|
+|long       |64 bits     |$-2^{63}$         | $2^{63}-1$  |
 
+## 3. OPERADORES MATEMÁTICOS
 
+Operadores mátematicos estándar
 
+| Objetivo     |   Operador | 
+|------------  |------------|
+|Suma          |+           |
+|Resta         |-           | 
+|Multiplicación|*           |
+|División      |/           |
+
+Ejemplo: 
+```java
+int suma , resta , multiplicacion, division;
+		int num1=5;
+		int num2=3;
+		suma = num1 + num2;
+		resta= num1- num2;
+		multiplicacion= num1*num2;
+		division= num1/num2;
+```

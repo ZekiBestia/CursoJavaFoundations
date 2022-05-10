@@ -21,5 +21,13 @@ public class Variables {
 		LASVARIABLES NO PUEDEN UTILIZAR PALARAS CLAVE CON NOMBRE DE VARIABLE
 		int String = 20;
 		*/
+		
+		int suma , resta , multiplicacion, division;
+		int num1=5;
+		int num2=3;
+		suma = num1 + num2;
+		resta= num1- num2;
+		multiplicacion=num1*num2;
+		division=num1/num2;
 	}
 }
