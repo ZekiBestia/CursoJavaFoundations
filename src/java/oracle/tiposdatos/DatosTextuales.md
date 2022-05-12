@@ -31,10 +31,25 @@ String cadena = "Hola mundo";
 ```
 Las cadenas en Java son objetos y no datos primitivos. Java viene con una clase* String* que ofrece información sobre:
 - Las propiedades de la cadena 
-- Los comportamientos de la cadena
+- Los comportamientos de la cadena  
+
 Podemos crear cadenas combinando variables:
 ```java
 String var1 = "Hello my name is ";
 String var2 = "Ezequiel Olivera Reyes";
-String saludo = var1 + var2 ;
+String saludo = var1 + " " + var2 ;
+```
+
+Las cadenas pueden contener números:
+```java
+String edad = "La edad es: " +3;
+System.out.println(edad); // La edad es: 3
+```
+Al realizar calculos hay que utilizar paréntesis:
+```java
+String edadT = "La edad total es: " + 3+4+7;
+System.out.println(edadT);// La edad total es: 347
+
+edadT = "La edadt total es: " + (3+4+7);
+System.out.println(edadT); //La edad total es: 14
 ```
